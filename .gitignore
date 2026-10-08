@@ -1,1 +1,48 @@
+# IDE
 /.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# User secrets / configuration
+# appsettings.Development.json holds no secrets for this solution and is kept
+# under version control; only genuine secret stores are ignored.
+**/secrets.json
+*.pfx
+*.p12
+
+# Rider
+*.dotSettings
+*.dotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+*.vspx
+
+# Code coverage
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
