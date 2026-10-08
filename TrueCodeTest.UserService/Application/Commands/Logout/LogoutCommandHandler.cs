@@ -1,0 +1,9 @@
+using MediatR;
+
+namespace TrueCodeTest.UserService.Application.Commands.Logout;
+
+public sealed class LogoutCommandHandler : IRequestHandler<LogoutCommand>
+{
+    public Task Handle(LogoutCommand request, CancellationToken cancellationToken)
+        => Task.CompletedTask;
+}
